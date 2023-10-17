@@ -1,22 +1,17 @@
 <template>
-  <div>Hello World</div>
-  <pre>
-    {{ data }}
-  </pre>
+  <ListUser />
 </template>
 
 <script>
-
+import ListUser from "./pages/users/list.vue"
 export default {
   name: 'App',
+  components: { ListUser },
   data() {
     return {
       data : []
     }
   },
-  created() {
-    this.axios.get("https://jsonplaceholder.typicode.com/todos").then(res => res.data).then(data => this.data = data)
-  }
 }
 </script>
 
