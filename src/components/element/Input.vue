@@ -1,14 +1,13 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
-  
+  <input type="text"/>
 </template>
 
 <script>
 export default {
+  name: "InputElement"
 }
 </script>
 
 <style>
+
 </style>

@@ -1,14 +1,14 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
-  
+  <footer>Footer</footer>
 </template>
 
 <script>
 export default {
+  name: "FooterLayout"
 }
+
 </script>
 
 <style>
+
 </style>

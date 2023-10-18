@@ -1,14 +1,13 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
-  
+  <button>Click me!</button>
 </template>
 
 <script>
 export default {
+  name: "ButtonElement"
 }
 </script>
 
 <style>
+
 </style>
